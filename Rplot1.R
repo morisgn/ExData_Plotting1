@@ -3,7 +3,7 @@
 ###  household_power_consumption.txt should be in the same directory as the R code
 #####################################################################################
 
-# Read data and truck values from household_power_consumption.txt. Missing values (?) are replaced with NA . 
+# Read data and truck values from household_power_consumption.txt. Missing values (?) are replaced with NA. 
 rawData<- read.table("household_power_consumption.txt", header= TRUE, sep=";", na.strings = c("?"))
 
 # Convert the Date variable. No need to convert Time for now. 
