@@ -8,6 +8,8 @@
 ###      Sys.setlocale("LC_TIME", "fr_FR.utf8")   #  Linux 
 ###      Sys.setlocale("LC_TIME", "fr_FR")  # Mac OS X, in UTF-8
 ###      Sys.setlocale("LC_TIME", "French") # Windows
+###      source : http://stat.ethz.ch/R-manual/R-devel/library/base/html/locales.html
+
 
 # Read data and truck values from household_power_consumption.txt. Missing values (?) are replaced with NA . 
 rawData<- read.table("household_power_consumption.txt", header= TRUE, sep=";", na.strings = c("?"))
